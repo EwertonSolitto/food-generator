@@ -8,7 +8,7 @@ export default function CScreen({title, uri, buttonPress, disabled}: screenProps
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title} Generator</Text>
-      <Image style={styles.image} source={{uri}} resizeMode='cover'/>
+      <Image style={styles.image} source={{uri: uri || undefined}} resizeMode='cover'/>
       
       <TouchableHighlight 
         style={styles.buttonContainer} 
