@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Image, Text, TouchableHighlight, View } from 'react-native';
 
-import { styles } from './styles';
-import getImage from '../../api/getImage';
 import { generateAnotherFood } from './actions';
+import CScreen from '../../components/screen';
 
 export default function Home() {
   const [foodImage, setFoodImage] = useState('')
@@ -20,18 +18,11 @@ export default function Home() {
   }
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Food Generator</Text>
-      <Image style={styles.image} source={{uri: foodImage}} resizeMode='cover'/>
-      
-      <TouchableHighlight 
-        style={styles.buttonContainer} 
-        onPressOut={generateFood} 
-        disabled={cooldown}
-      >
-        <Text style={styles.buttonText}>Generate food</Text>
-      </TouchableHighlight>
-
-    </View>
+    <CScreen 
+      title='Food'
+      uri={foodImage}
+      buttonPress={generateFood}
+      disabled={cooldown}
+    />
   );
 }
