@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <CScreen 
-      title='Food'
+      title='🍲 Food'
       uri={foodImage}
       buttonPress={generateFood}
       disabled={cooldown}

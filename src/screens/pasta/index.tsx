@@ -19,7 +19,7 @@ export default function Pasta() {
 
   return (
     <CScreen 
-      title='Pasta'
+      title='🍝 Pasta'
       uri={foodImage}
       buttonPress={generateFood}
       disabled={cooldown}

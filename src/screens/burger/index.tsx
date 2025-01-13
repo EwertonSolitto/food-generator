@@ -19,7 +19,7 @@ export default function Burger() {
 
   return (
     <CScreen 
-      title='Burger'
+      title='🍔 Burger'
       uri={foodImage}
       buttonPress={generateFood}
       disabled={cooldown}
