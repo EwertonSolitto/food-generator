@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "food-generator",
+    "name": "Food Generator",
     "slug": "food-generator",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#BD9A94"
-      }
+      },
+      "package": "com.ewertonsolitto.foodgenerator"
     },
     "web": {
       "favicon": "./assets/icon.png"
