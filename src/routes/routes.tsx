@@ -11,7 +11,9 @@ const { Navigator, Screen } = createBottomTabNavigator();
 
 export default function Routes() {
   return (
-    <Navigator screenOptions={{
+    <Navigator 
+      initialRouteName='Food'
+      screenOptions={{
       headerShown: false,
       headerBackgroundContainerStyle: {
         backgroundColor: colors.secondary

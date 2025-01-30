@@ -26,7 +26,7 @@
 
 # Download ⬇️
 
-ANDROID: https://expo.dev/accounts/ewertonsolitto/projects/food-generator/builds/e5a5be73-2f3e-4501-88f6-d62e21d6ab82
+ANDROID: https://expo.dev/accounts/ewertonsolitto/projects/food-generator/builds/912d1ba0-cd0f-492b-888d-f7e60e825680
 
 # Installation 🔧
 
